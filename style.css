@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+#contenir-fashion{
+    width: 50%;
+    margin-left:1550px;
+    margin-top: -3000px;
+   
+}
+#fashion-image1{
+    width:30vw;
+    filter:drop-shadow(100px 90px 70px gray) grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+#fashion-image1:hover{
+    width: 31vw;
+    filter: drop-shadow(100px 90px 70px gray) grayscale(0%) ;
+   
+}
+#fashion-image2{
+    margin-left: 1300px;
+    margin-top: -1500px;
+    filter:drop-shadow(100px 90px 70px gray) grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+#fashion-image2:hover{
+    margin-left: 1300px;
+    margin-top: -1500px;
+    width: 20vw;
+    filter:drop-shadow(100px 90px 70px gray) grayscale(0%);
+}
+#fashion-image3{
+    margin-left: -800px;
+    margin-top: -1500px;
+    filter:drop-shadow(-100px 90px 70px gray) grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+#fashion-image3:hover{
+    margin-left: -800px;
+    margin-top: -1500px;
+    width: 20vw;
+    filter:drop-shadow(-100px 90px 70px gray) grayscale(0%);
+   
+}
+#fashion-word{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 400px;
+    animation: fadeInWord 4s cubic-bezier(0.25, 1, 0.5, 1);
+   
+}
+@keyframes fadeInWord {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    to {
+        opacity: 1;
+        transform: translateY(0);   
+    }
+}
+}
