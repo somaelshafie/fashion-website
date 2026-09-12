@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soma Elshafie's personal portfolio">
+    <title>Soma Elshafie</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h2>Soma.dev</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#courses">Courses</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- About -->
+        <section id="about">
+            <h1>Hi, I'm Soma Elshafie</h1>
+
+            <p>
+                I am a Computer Science student interested in Web Development.
+            </p>
+
+            <img src="./images/laptop.jpeg" alt="Soma's profile image" width="130px" height="70px">
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ul>
+
+            <h2>My Learning Journey</h2>
+
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+
+            <p>
+                I am <strong>learning Web Development</strong> and
+                <em>improving my skills</em> every day.
+                <mark>Keep learning!</mark>
+            </p>
+        </section>
+
+        <!-- Courses -->
+        <section id="courses">
+            <h2>My Courses</h2>
+
+            <table>
+                <caption>My Courses</caption>
+
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>4 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>3 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>5 Weeks</td>
+                        <td>In Progress</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total Courses</td>
+                        <td>3</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+
+            <figure>
+                <img src="./images//laptop.jpeg" alt="Coding on a laptop" width="150" height="100">
+                <figcaption>Coding Time</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./images//learning.jpeg" alt="Learning and studying" width="150" height="100">
+                <figcaption>Learning Time</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./images/goals.jpeg" alt="Personal goals" width="150" height="100">
+                <figcaption>My Goals</figcaption>
+            </figure>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <br><br>
+
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate">
+
+                <br><br>
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="course">Course</option>
+                    <option value="web">Web Development</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <br><br>
+
+                <p>Preferred Contact Method:</p>
+
+                <input type="radio" id="ec" name="contact" value="email">
+                <label for="ec">Email</label>
+
+                <input type="radio" id="pc" name="contact" value="phone">
+                <label for="pc">Phone</label>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message"></textarea>
+
+                <br><br>
+
+                <input type="checkbox" id="c" name="terms" required>
+                <label for="c">I agree to the terms</label>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq">
+            <h2>FAQ</h2>
+
+            <details>
+                <summary>What do you learn?</summary>
+                <p>I learn Web Development.</p>
+            </details>
+
+            <details>
+                <summary>What is your goal?</summary>
+                <p>My goal is to become a Full Stack Developer.</p>
+            </details>
+
+            <details>
+                <summary>How can I contact you?</summary>
+                <p>You can contact me by email.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <address>
+            Email: soma@example.com
+            <br>
+            Cairo, Egypt
+        </address>
+
+        <p>
+            <a href="https://github.com/">GitHub</a>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+        </p>
+
+        <p>&copy; 2026 Soma Elshafie</p>
+    </footer>
+
+</body>
+</html>

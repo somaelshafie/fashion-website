@@ -1,0 +1,7 @@
+HTML (HyperText Markup Language)
+
+HTML is not a programming language, but it is a markup language.
+ It is easy to learn and very important because it is used to create almost all websites.
+ HTML is used to design and structure websites by using tags such as: 
+"<!DOCTYPE html>", "html", "meta", "title", "head", "body", "link", "h1-h6", "p", "div", "span", "img",
+ "ul", "ol", "table" ("tr", "td"), "form" ("input" types: text, email, password, file, date, tel, checkbox, radio), "textarea", "strong", "em", "i", "b", "hr", "br", "canvas", "a", "iframe", "fieldset", "legend", "details", "summary", "optgroup", "option", "select", and "datalist".

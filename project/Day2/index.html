@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <style>
+       #first-h1{
+            color:red;
+        }
+        #secound-h1{
+            color:rgb(115, 115, 222)
+        }
+        .link{
+            color:red;
+            text-decoration: none;
+            margin-left:4px ;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="link">Main</a>
+    <a href="#" class="link">Make an Order</a>
+    <a href="#" class="link">Contact Us</a>
+    <h1 id="first-h1">Black Goose Bistro|Pizza-on-Demand</h1>
+    <p>Our 12"wood-fired pizza are available for delivery,build your custom pizza and we'll deliver it within an hour.</p>
+   <form>
+    <fieldset>
+        <legend lang="en">Your Information</legend>
+       
+            <label for="Name">Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="Name" name="Name" size="25">
+            <br>
+            <label for="Address">Address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="Address" name="Address" size="25">
+            <br>
+            <label for="TN">Telephone Number:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel" id="TN" name="Telephone Number" size="25">
+            <br>
+            <label for="E">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" id="E" name="Email" size="25">
+            <br>
+            <label for="DI">Delivery Instruction:</label>
+            <br>
+            <textarea placeholder="No more than 400 character long" rows="4" cols="60"></textarea>
+       
+    </fieldset>
+    <br>
+    <h1 id="secound-h1">Design Your Dream Pizza:</h1>
+    <fieldset>
+        <legend lang="en">Pizza specs</legend>
+        <fieldset>
+            <legend lang="en">Crust(Choose one):</legend>
+           
+                <input type="radio" name="r">
+                <label>Classic White</label>
+                <br>
+                <input type="radio" name="r">
+                <label>Multigrain</label>
+                <br>
+                <input type="radio" name="r">
+                <label>Choose-stuffed crust</label>
+                <br>
+                <input type="radio" name="r">
+                <label>Gluten-free</label>
+           
+        </fieldset>
+        <fieldset>
+            <legend lang="en">Toppings(Choose asmany as you want):</legend>
+            <input type="checkbox" name="Red Sauce" >
+            <label>Red Sauce</label>
+            <br>
+             <input type="checkbox" name="White Sauce" >
+            <label>White Sauce</label>
+            <br>
+             <input type="checkbox" name="Mozzarella Cheese" >
+            <label>Mozzarella Cheese</label>
+            <br>
+             <input type="checkbox" name="Pepperoni" >
+            <label>Pepperoni</label>
+            <br>
+             <input type="checkbox" name="Mushrooms" >
+            <label>Mushrooms</label>
+            <br>
+             <input type="checkbox" name="Peppers" >
+            <label>Peppers</label>
+            <br>
+             <input type="checkbox" name="Anchovies" >
+            <label>Anchovies</label>
+        </fieldset>
+        <fieldset>
+            <legend lang="en">Number</legend>
+            
+                <label for="hmp">How many pizzas:</label>
+                <input type="text" name="How many pizzas" id="hmp" size="2.5">
+            
+        </fieldset>
+    </fieldset>
+    <br>
+    <button type="submit">Bring me a pizza!</button>
+    <button type="reset">Reset</button>
+   </form>
+</body>
+</html>

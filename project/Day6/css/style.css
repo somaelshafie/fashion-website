@@ -1,0 +1,138 @@
+:root {
+    --primary-color: rgb(57, 128, 105);
+    --secondary-color: rgb(201, 234, 223);
+    --text-color: rgb(31, 45, 42);
+    --white-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--text-color);
+    font-size: 16px;
+    background: var(--white-color);
+}
+
+#header {
+    width: 100vw;
+    min-height: 50px;
+    padding: 2px;
+}
+
+h1, h3, h5 {
+    color: var(--text-color);
+}
+
+div span a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+div span a:hover {
+    color: rgb(31, 95, 74);
+    text-decoration: underline;
+    color: rgb(229, 229, 229);
+    background-color: rgb(49, 87, 74);
+    border-radius: 5px;
+}
+
+#contenir-ancor {
+    margin-left: 50%;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+  
+}
+
+#Section-Home {
+    width: 100%;
+    height: 200px;
+    max-width: 1200px;
+    min-height: 20vh;
+
+    background-color: var(--secondary-color);
+  
+
+    --home-title-size: 2em;
+}
+
+#Section-Home > table {
+    width: 90%;
+}
+
+#Section-Home h1 {
+    font-size: var(--home-title-size);
+}
+
+#About {
+    padding: 2rem;
+    line-height: 1.5em;
+}
+
+#About h3 {
+    cursor: help;
+}
+
+#Skills {
+    padding: 2rem;
+}
+
+.overflow-box {
+    width: 300px;
+    height: 70px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    overflow: auto;
+}
+
+button {
+    background-color: gray;
+}
+
+.contact-button {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#Contact-button {
+    background-color: rgb(57, 128, 105);
+}
+
+button.contact-button#Contact-button {
+    /* لتوضيح أولوية specificity */
+    color: white !important;
+}
+
+#contact-div {
+    background-color: var(--secondary-color);
+    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+footer {
+    min-height: 80px;
+    
+    background-image: url(/Day6/images/Untitled\ \(4\).svg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    color: var(--white-color);
+}
+#footer-heading{
+    margin-top: 20px;
+    margin-left: 900px;
+    color: aliceblue;
+}
